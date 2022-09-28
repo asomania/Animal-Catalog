@@ -1,18 +1,20 @@
 <template>
-  <HelloWorld />
+  <MyToDo />
 </template>
 
 <script>
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
 // Components
-import HelloWorld from '../components/HelloWorld.vue';
+import myToDo from "../components/myToDo.vue";
+import MyToDo from "../components/myToDo.vue";
 
 export default defineComponent({
-  name: 'HomeView',
+  name: "HomeView",
 
   components: {
-    HelloWorld,
+    myToDo,
+    MyToDo,
   },
 });
 </script>
